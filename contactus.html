@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("https://images.bewakoof.com/utter/7-indian-food-instagram-accounts-every-foodie-should-follow.jpg")
+}
+h1 {
+    color:white;
+    text-align:center;
+    font-family: verdana;
+	font-size: 300%;
+}
+
+</style>
+</head>
+<body>
+<h1> Toasty Pantry</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #00000;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/library/Desktop/index/home.html">Home</a></li>
+  <li><a href="file:///C:/Users/library/Desktop/index/reviews.html">Reviews</a></li>
+  <li><a href="file:///C:/Users/library/Desktop/index/contactus.html">Contact Us</a></li>
+  <li><a href="file:///C:/Users/library/Desktop/index/menu.html">Menu</a></li>
+  <li><a href="file:///C:/Users/library/Desktop/index/location.html">Location</a></li>
+</ul>
+
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+$red: #e74c3c;
+
+*, 
+*:before, 
+*:after {
+   @include box-sizing(border-box); 
+}
+
+html, body {
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+}
+
+
+h2 {color: white;}
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+  
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+  
+  #input-submit {
+     color: white; 
+     background: $red;
+     cursor: pointer;
+    
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  }
+  
+  textarea {
+      height: 126px;
+  }
+}
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+body {background-color: #dca3a3;}
+h1   {font-family: verdana;color: white;text-align: center;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00000;
+}
+</style>
+</head>
+
+<center>
+<body>
+
+
+<h2> Contact Us!<h2>
+
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+</body>
+</html>
 
